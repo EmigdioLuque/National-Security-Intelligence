@@ -1,6 +1,7 @@
 # National Security Intelligence
 
 ### Global Conflict Analytics & Strategic Intelligence Platform
+🌐 **Live Dashboard:** https://emigdioluque.github.io/National-Security-Intelligence/
 
 National Security Intelligence is an independent, open-source intelligence (OSINT) analytics project designed to explore historical patterns of organized violence and geopolitical conflict through real-world data.
 
@@ -130,7 +131,8 @@ The platform combines data processing, analytical programming and interactive we
 
 **GitHub**
 
-* Source code hosting and project documentation (planned for publication).
+* Version control, source code hosting and project documentation.
+* Public deployment of the interactive dashboard using GitHub Pages.
 
 ## 5. Analytical Methodology
 
@@ -259,7 +261,7 @@ Official resources:
 - UCDP downloads: https://ucdp.uu.se/downloads/
 - UCDP GED documentation: https://ucdp.uu.se/downloads/ged/ged261.pdf
 
-### Mapping Technologies
+### Mapping & Visualization Resources
 
 - Leaflet: https://leafletjs.com/
 - OpenStreetMap: https://www.openstreetmap.org/
