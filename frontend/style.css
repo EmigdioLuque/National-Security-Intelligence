@@ -1,0 +1,1185 @@
+/* CONFIGURACIÓN GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b1120;
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+
+/* CABECERA */
+
+header {
+    background-color: #111c30;
+    padding: 28px 45px;
+    border-bottom: 1px solid #263750;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+header p {
+    margin: 6px 0 0;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 35px 45px;
+}
+
+section {
+    background-color: #131f33;
+    padding: 28px;
+    margin-bottom: 25px;
+    border: 1px solid #263750;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 23px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #60a5fa;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+/* GRÁFICOS */
+
+section img {
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: 20px auto 35px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 12px;
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #94a3b8;
+    border-top: 1px solid #263750;
+    font-size: 13px;
+}
+
+/* ADAPTACIÓN A PANTALLAS PEQUEÑAS */
+
+@media (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+}
+/* DASHBOARD METRICS */
+
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.metric-card {
+    background-color: #0b1120;
+    border: 1px solid #263750;
+    border-radius: 10px;
+    padding: 22px;
+    min-width: 0;
+}
+
+.metric-card span {
+    display: block;
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+.metric-card h3 {
+    color: #60a5fa;
+    font-size: 28px;
+    margin: 12px 0;
+    overflow-wrap: anywhere;
+}
+
+.metric-card small {
+    color: #64748b;
+    font-size: 12px;
+}
+
+@media (max-width: 1000px) {
+    .metrics-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .metrics-grid {
+        grid-template-columns: 1fr;
+    }
+}
+#countriesChart {
+    width: 100% !important;
+    height: 420px !important;
+    max-height: 420px;
+}
+/* Contenedor del segundo gráfico */
+
+.chart-container {
+
+    position: relative;
+
+    width: 100%;
+
+    height: 350px;
+
+}
+
+#trendsChart {
+
+    display: block;
+
+    width: 100% !important;
+
+    height: 100% !important;
+
+}
+
+/* =========================================
+   DASHBOARD FILTERS
+========================================= */
+
+.dashboard-filters {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 24px 0;
+    padding: 18px 22px;
+
+    background: #111c30;
+    border: 1px solid #263750;
+    border-radius: 12px;
+}
+
+.dashboard-filters label {
+    color: #94a3b8;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.dashboard-filters select {
+    background: #1e293b;
+    color: #f1f5f9;
+
+    border: 1px solid #334155;
+    border-radius: 8px;
+
+    padding: 10px 14px;
+    font-size: 13px;
+
+    cursor: pointer;
+    outline: none;
+
+    transition: border-color 0.2s ease;
+}
+
+.dashboard-filters select:hover {
+    border-color: #3b82f6;
+}
+
+.dashboard-filters select:focus {
+    border-color: #60a5fa;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
+}
+
+#countryFilter {
+    min-width: 200px;
+}
+
+#startYearFilter,
+#endYearFilter {
+    min-width: 90px;
+}
+
+@media (max-width: 600px) {
+    .dashboard-filters {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .dashboard-filters select {
+        width: 100%;
+    }
+}
+
+/* GLOBAL CONFLICT MAP */
+
+.map-description {
+
+    color: #94a3b8;
+
+    font-size: 14px;
+
+    margin-bottom: 20px;
+
+}
+
+#conflictMap {
+
+    width: 100%;
+
+    height: 500px;
+
+    border-radius: 12px;
+
+    border: 1px solid #334155;
+
+    margin-top: 20px;
+
+    margin-bottom: 30px;
+
+    background: #0f172a;
+
+    z-index: 1;
+
+}
+
+/* MAP LEGEND */
+
+.map-legend {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 18px;
+    padding: 16px 20px;
+    background: #0f172a;
+    border: 1px solid #273449;
+    border-radius: 10px;
+}
+
+.legend-title {
+    color: #94a3b8;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #e2e8f0;
+    font-size: 13px;
+}
+
+.legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.legend-dot.state {
+    background: #ef4444;
+}
+
+.legend-dot.nonstate {
+    background: #f59e0b;
+}
+
+.legend-dot.onesided {
+    background: #a855f7;
+}
+
+.map-data-note {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+/* COUNTRY INTELLIGENCE — TREND CARD */
+
+.trend-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    margin-top: 20px;
+    padding: 20px 24px;
+
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 12px;
+}
+
+.trend-card-label {
+    color: #cbd5e1;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.trend-card-value {
+    font-size: 24px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+/* Increasing conflict activity */
+.trend-increase {
+    border-left: 4px solid #ef4444;
+}
+
+.trend-increase .trend-card-value {
+    color: #ef4444;
+}
+
+/* Decreasing conflict activity */
+.trend-decrease {
+    border-left: 4px solid #22c55e;
+}
+
+.trend-decrease .trend-card-value {
+    color: #22c55e;
+}
+
+/* No comparable data */
+.trend-neutral {
+    border-left: 4px solid #64748b;
+}
+
+.trend-neutral .trend-card-value {
+    color: #94a3b8;
+}
+
+/* ========================================
+   COUNTRY COMPARISON — INTELLIGENCE CARDS
+   ======================================== */
+
+.comparison-stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    margin: 25px 0 30px;
+}
+
+.comparison-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px;
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    transition: border-color 0.2s ease;
+}
+
+.comparison-card:hover {
+    border-color: #64748b;
+}
+
+.comparison-card span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #cbd5e1;
+}
+
+.comparison-card strong {
+    font-size: 34px;
+    font-weight: 700;
+    color: #f8fafc;
+}
+
+.comparison-card small {
+    font-size: 13px;
+    color: #94a3b8;
+}
+
+/* Match the chart colors */
+
+.comparison-card:first-child {
+    border-left: 4px solid #3b82f6;
+}
+
+.comparison-card:nth-child(2) {
+    border-left: 4px solid #f97316;
+}
+
+/* Responsive layout */
+
+@media (max-width: 700px) {
+    .comparison-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .comparison-card strong {
+        font-size: 28px;
+    }
+}
+
+/* Country comparison — difference indicator */
+
+.comparison-difference {
+    border-left: 4px solid #a78bfa;
+}
+
+.comparison-difference strong {
+    color: #c4b5fd;
+}
+
+/* STRATEGIC INTELLIGENCE ASSESSMENT */
+
+.strategic-assessment-card {
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-left: 4px solid #64748b;
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin-top: 24px;
+}
+
+.strategic-assessment-card h3 {
+    color: #f8fafc;
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.strategic-assessment-card p {
+    color: #cbd5e1;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+
+.strategic-assessment-card strong {
+    color: #f1f5f9;
+}
+
+.strategic-assessment-card small {
+    display: block;
+    color: #94a3b8;
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 24px;
+}
+
+/* Historical activity classification */
+
+.strategic-assessment-card.activity-increasing {
+    border-left-color: #ef4444;
+}
+
+.strategic-assessment-card.activity-increasing h3 {
+    color: #f87171;
+}
+
+.strategic-assessment-card.activity-decreasing {
+    border-left-color: #22c55e;
+}
+
+.strategic-assessment-card.activity-decreasing h3 {
+    color: #4ade80;
+}
+
+.strategic-assessment-card.activity-stable {
+    border-left-color: #f59e0b;
+}
+
+.strategic-assessment-card.activity-stable h3 {
+    color: #fbbf24;
+}
+
+@media (max-width: 700px) {
+    .strategic-assessment-card {
+        padding: 20px;
+    }
+}
+
+/* Strategic Intelligence Assessment — Base Card */
+
+.strategic-assessment-card {
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-left: 4px solid #64748b;
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 20px;
+}
+
+/* HISTORICAL RECORDED ACTIVITY LEVEL */
+
+.intensity-badge {
+    display: inline-block;
+    padding: 7px 14px;
+    margin-left: 8px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    border: 1px solid transparent;
+}
+
+/* Low recorded activity */
+.intensity-low {
+    color: #4ade80;
+    background: rgba(34, 197, 94, 0.12);
+    border-color: rgba(34, 197, 94, 0.3);
+}
+
+/* Moderate recorded activity */
+.intensity-moderate {
+    color: #facc15;
+    background: rgba(234, 179, 8, 0.12);
+    border-color: rgba(234, 179, 8, 0.3);
+}
+
+/* High recorded activity */
+.intensity-high {
+    color: #fb923c;
+    background: rgba(249, 115, 22, 0.12);
+    border-color: rgba(249, 115, 22, 0.3);
+}
+
+/* Very high recorded activity */
+.intensity-very-high {
+    color: #f87171;
+    background: rgba(239, 68, 68, 0.12);
+    border-color: rgba(239, 68, 68, 0.3);
+}
+
+/* Insufficient data */
+.intensity-neutral {
+    color: #94a3b8;
+    background: rgba(148, 163, 184, 0.1);
+    border-color: rgba(148, 163, 184, 0.25);
+}
+/* METHODOLOGICAL NOTE — CONFLICT PERSISTENCE */
+
+.persistence-note {
+    margin-top: 8px;
+    padding: 12px 16px;
+
+    color: #94a3b8;
+    background: rgba(148, 163, 184, 0.06);
+
+    border-left: 3px solid #475569;
+    border-radius: 4px;
+
+    font-size: 12px;
+    line-height: 1.6;
+    font-style: italic;
+}
+/* HISTORICAL CONFLICT ACTIVITY CONCENTRATION */
+
+.concentration-bar {
+    width: 100%;
+    height: 10px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    background: #1e293b;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #334155;
+}
+
+.concentration-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #2563eb, #38bdf8);
+    border-radius: 8px;
+    transition: width 0.5s ease;
+}
+/* STRATEGIC INTELLIGENCE — ANALYTICAL INTERPRETATION */
+
+.concentration-interpretation {
+    margin-top: 16px;
+    padding: 16px 20px;
+    background: rgba(59, 130, 246, 0.06);
+    border-left: 3px solid #3b82f6;
+    border-radius: 6px;
+    color: #cbd5e1;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.concentration-interpretation strong {
+    color: #60a5fa;
+    font-weight: 600;
+}
+/* COUNTRY COMPARISON — CHART CONTAINER */
+
+.country-comparison .chart-container {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    margin-top: 30px;
+}
+
+#countryComparisonChart {
+    width: 100% !important;
+    height: 100% !important;
+}
+/* COUNTRY COMPARISON — DATA INTERPRETATION */
+
+.comparison-note {
+    margin-top: 16px;
+    padding: 14px 18px;
+
+    background: rgba(59, 130, 246, 0.06);
+    border-left: 3px solid #3b82f6;
+    border-radius: 6px;
+
+    color: #94a3b8;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.comparison-note strong {
+    color: #cbd5e1;
+    font-weight: 600;
+}
+/* ==========================================
+   HISTORICAL COUNTRY COMPARISON — INDICATORS
+   ========================================== */
+
+#historicalComparisonStats {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    margin: 28px 0;
+}
+
+#historicalComparisonStats .comparison-indicator {
+    background: linear-gradient(
+        145deg,
+        #111e35,
+        #0c172a
+    );
+
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    border-radius: 14px;
+
+    padding: 26px;
+    transition: border-color 0.2s ease;
+}
+
+#historicalComparisonStats .comparison-indicator:hover {
+    border-color: rgba(59, 130, 246, 0.5);
+}
+
+#historicalComparisonStats .comparison-indicator h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f8fafc;
+    margin: 0 0 20px;
+}
+
+#historicalComparisonStats .comparison-indicator p {
+    font-size: 14px;
+    color: #cbd5e1;
+    line-height: 1.8;
+    margin: 10px 0;
+}
+
+#historicalComparisonStats .comparison-indicator strong {
+    color: #94a3b8;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    #historicalComparisonStats {
+        grid-template-columns: 1fr;
+    }
+}
+/* COMPARATIVE INTELLIGENCE ASSESSMENT */
+
+.comparison-interpretation {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    padding: 24px 28px;
+    grid-column: 1 / -1;
+    width: 100%;
+box-sizing: border-box;
+
+    background: linear-gradient(
+        135deg,
+        rgba(30, 41, 59, 0.85),
+        rgba(15, 23, 42, 0.95)
+    );
+
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    border-left: 4px solid #3b82f6;
+    border-radius: 12px;
+}
+
+.comparison-interpretation h4 {
+    margin: 0 0 14px;
+    color: #f8fafc;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.comparison-interpretation p {
+    margin: 0;
+    color: #cbd5e1;
+    font-size: 15px;
+    line-height: 1.8;
+}
+/* COUNTRY COMPARISON — INTERPRETATION WARNING */
+
+.comparison-warning {
+    margin-top: 18px;
+    padding: 14px 18px;
+    background: rgba(245, 158, 11, 0.08);
+    border-left: 3px solid #f59e0b;
+    border-radius: 6px;
+    color: #fbbf24;
+    font-size: 14px;
+    line-height: 1.6;
+}
+/* ANNUAL CONFLICT ACTIVITY CHANGE */
+
+.annual-change-increase {
+    color: #f87171;
+    font-weight: 600;
+}
+
+.annual-change-decrease {
+    color: #4ade80;
+    font-weight: 600;
+}
+
+.annual-change-neutral {
+    color: #94a3b8;
+    font-weight: 500;
+}
+/* =========================================
+   PLATFORM HEADER — PROFESSIONAL DESIGN
+   ========================================= */
+
+.platform-header {
+    background: linear-gradient(
+        135deg,
+        #101e35 0%,
+        #152b47 60%,
+        #0b1729 100%
+    );
+    border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+    padding: 32px 48px;
+}
+
+.header-content {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.platform-brand {
+    min-width: 0;
+}
+
+.platform-label {
+    display: block;
+    color: #38bdf8;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.platform-brand h1 {
+    color: #f8fafc;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+    margin: 0 0 8px;
+}
+
+.platform-brand p {
+    color: #94a3b8;
+    font-size: 14px;
+    margin: 0;
+}
+
+.platform-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    background: rgba(15, 23, 42, 0.65);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    border-radius: 8px;
+    color: #cbd5e1;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.status-indicator {
+    width: 8px;
+    height: 8px;
+    flex-shrink: 0;
+    background: #38bdf8;
+    border-radius: 50%;
+}
+
+/* Responsive header */
+
+@media (max-width: 768px) {
+    .platform-header {
+        padding: 24px 20px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .platform-brand h1 {
+        font-size: 24px;
+    }
+
+    .platform-status {
+        white-space: normal;
+    }
+}
+
+/* COUNTRY INTELLIGENCE — METRIC CARDS */
+
+.intelligence-metric {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 20px 24px;
+    margin: 16px 0;
+
+    background: rgba(255, 255, 255, 0.035);
+    border: 1px solid rgba(148, 163, 184, 0.12);
+    border-radius: 10px;
+}
+
+.intelligence-metric-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #94a3b8;
+}
+
+.intelligence-metric-value {
+    font-size: 30px;
+    font-weight: 650;
+    letter-spacing: -0.8px;
+    line-height: 1.2;
+    color: #f8fafc;
+}
+
+/* COUNTRY INTELLIGENCE — METRICS GRID */
+
+.intelligence-metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.intelligence-metrics-grid .intelligence-metric {
+    margin: 0;
+    min-width: 0;
+}
+
+/* TABLET */
+
+@media (max-width: 1100px) {
+    .intelligence-metrics-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+    .intelligence-metrics-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .intelligence-metrics-grid .intelligence-metric {
+        padding: 18px;
+    }
+
+    .intelligence-metric-value {
+        font-size: 26px;
+    }
+}
+
+/* COUNTRY COMPARISON — SELECTORS */
+
+.comparison-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 24px 0;
+}
+
+.comparison-controls > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1 1 240px;
+}
+
+.comparison-controls label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #94a3b8;
+}
+
+.comparison-controls select {
+    width: 100%;
+    padding: 13px 16px;
+
+    background-color: #1e293b;
+    color: #f8fafc;
+
+    border: 1px solid #334155;
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    cursor: pointer;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.comparison-controls select:hover {
+    border-color: #64748b;
+}
+
+.comparison-controls select:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+@media (max-width: 600px) {
+    .comparison-controls {
+        gap: 16px;
+    }
+}
+
+/* =========================================
+   COUNTRY INTELLIGENCE — FILTER CONTROLS
+   ========================================= */
+
+.country-profile-controls {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    margin: 28px 0 32px;
+}
+
+.profile-control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile-control-group label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #94a3b8;
+}
+
+.profile-control-group select {
+    width: 100%;
+    padding: 13px 16px;
+    background: #1e293b;
+    color: #f1f5f9;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: border-color 0.2s ease,
+                box-shadow 0.2s ease;
+}
+
+.profile-control-group select:hover {
+    border-color: #64748b;
+}
+
+.profile-control-group select:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+@media (max-width: 768px) {
+    .country-profile-controls {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+}
+
+/* ========================================
+   STRATEGIC INTELLIGENCE — INSIGHTS HEADER
+======================================== */
+
+.intelligence-insights-header {
+    margin-bottom: 28px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.intelligence-insights-label {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #60a5fa;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.intelligence-insights-header h3 {
+    margin: 0 0 8px;
+    color: #f8fafc;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+}
+
+.intelligence-insights-header p {
+    margin: 0;
+    color: #94a3b8;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* ========================================
+   STRATEGIC INTELLIGENCE — INSIGHT CARDS
+======================================== */
+
+.intelligence-insights-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    margin-bottom: 28px;
+}
+
+.intelligence-insight-card {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 24px;
+    background: #0f172a;
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    border-radius: 12px;
+    min-width: 0;
+    transition: border-color 0.2s ease;
+}
+
+.intelligence-insight-card:hover {
+    border-color: rgba(96, 165, 250, 0.5);
+}
+
+.intelligence-insight-card-label {
+    color: #94a3b8;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.intelligence-insight-card-value {
+    color: #f8fafc;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+}
+
+.intelligence-insight-card-description {
+    color: #cbd5e1;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+    .intelligence-insights-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ========================================
+   STRATEGIC INTELLIGENCE — HISTORICAL CARDS
+======================================== */
+
+.intelligence-historical-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    margin-bottom: 28px;
+}
+
+.intelligence-historical-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px;
+    background: rgba(15, 23, 42, 0.55);
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    border-radius: 12px;
+    min-width: 0;
+}
+
+.intelligence-historical-card p {
+    margin: 0;
+    color: #cbd5e1;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+    .intelligence-historical-grid {
+        grid-template-columns: 1fr;
+    }
+}

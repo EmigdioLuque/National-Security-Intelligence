@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>National Security Intelligence</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link
+
+    rel="stylesheet"
+
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+
+/>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+
+<body>
+
+    <header class="platform-header">
+    <div class="header-content">
+
+        <div class="platform-brand">
+            <span class="platform-label">INTELLIGENCE ANALYTICS PLATFORM</span>
+
+            <h1>National Security Intelligence</h1>
+
+            <p>Global Conflict Monitoring & Strategic Intelligence</p>
+        </div>
+
+        <div class="platform-status">
+            <span class="status-indicator"></span>
+            <span>UCDP GED v26.1 · Historical Data</span>
+        </div>
+
+    </div>
+</header>
+
+    <main>
+
+        <section>
+            <h2>Global Intelligence Dashboard</h2>
+            <div class="metrics-grid">
+
+    <div class="metric-card">
+        <span>Total Recorded Events</span>
+        <h3 id="total-events">Loading...</h3>
+        <small>2015–2025</small>
+    </div>
+
+    <div class="metric-card">
+        <span>Countries Analyzed</span>
+        <h3 id="countries-analyzed">Loading...</h3>
+        <small>UCDP GED Dataset</small>
+    </div>
+
+    <div class="metric-card">
+        <span>Events in 2025</span>
+        <h3 id="events-2025">Loading...</h3>
+        <small>Recorded events</small>
+    </div>
+
+    <div class="metric-card">
+        <span>Most Recorded Events — 2025</span>
+        <h3 id="top-country">Loading...</h3>
+        <small>Country with highest event count</small>
+    </div>
+
+</div>
+            <p>
+                An independent open-source intelligence platform
+                for analyzing organized violence and geopolitical trends.
+            </p>
+        </section>
+
+        <section>
+            <h2>Global Conflict Analytics</h2>
+
+            <h3>Top 10 Countries — 2025</h3>
+
+            <canvas id="countriesChart"></canvas>
+
+            <h3>Global Trends — 2015–2025</h3>
+            <div class="dashboard-filters">
+
+    <label for="countryFilter">Select Country:</label>
+
+    <select id="countryFilter">
+
+        <option value="all">All Countries</option>
+
+    </select>
+
+    <label for="startYearFilter">From:</label>
+
+    <select id="startYearFilter">
+
+        <option value="2015">2015</option>
+
+        <option value="2016">2016</option>
+
+        <option value="2017">2017</option>
+
+        <option value="2018">2018</option>
+
+        <option value="2019">2019</option>
+
+        <option value="2020">2020</option>
+
+        <option value="2021">2021</option>
+
+        <option value="2022">2022</option>
+
+        <option value="2023">2023</option>
+
+        <option value="2024">2024</option>
+
+        <option value="2025">2025</option>
+
+    </select>
+
+    <label for="endYearFilter">To:</label>
+
+    <select id="endYearFilter">
+
+        <option value="2025">2025</option>
+
+        <option value="2024">2024</option>
+
+        <option value="2023">2023</option>
+
+        <option value="2022">2022</option>
+
+        <option value="2021">2021</option>
+
+        <option value="2020">2020</option>
+
+        <option value="2019">2019</option>
+
+        <option value="2018">2018</option>
+
+        <option value="2017">2017</option>
+
+        <option value="2016">2016</option>
+
+        <option value="2015">2015</option>
+
+    </select>
+
+</div>
+
+            <div class="chart-container">
+
+    <canvas id="trendsChart"></canvas>
+
+</div>
+<h3>Global Conflict Map — 2015–2025</h3>
+
+<p class="map-description">
+
+    Geographic distribution of recorded conflict events.
+
+    Data source: UCDP GED 26.1.
+
+</p>
+<div class="map-filters">
+    <label for="mapCountryFilter">Country:</label>
+
+<select id="mapCountryFilter">
+
+    <option value="all">All Countries</option>
+
+</select>
+    <label for="violenceFilter">Type of Violence:</label>
+    <select id="violenceFilter">
+        <option value="all">All Types</option>
+        <option value="1">State-based Conflict</option>
+        <option value="2">Non-state Conflict</option>
+        <option value="3">One-sided Violence</option>
+    </select>
+    <label for="mapYearFilter">Year:</label>
+
+<select id="mapYearFilter">
+    <option value="all">All Years</option>
+    <option value="2015">2015</option>
+    <option value="2016">2016</option>
+    <option value="2017">2017</option>
+    <option value="2018">2018</option>
+    <option value="2019">2019</option>
+    <option value="2020">2020</option>
+    <option value="2021">2021</option>
+    <option value="2022">2022</option>
+    <option value="2023">2023</option>
+    <option value="2024">2024</option>
+    <option value="2025">2025</option>
+</select>
+</div>
+<div class="map-statistics">
+
+    <div class="map-stat">
+
+        <span>Recorded Events:</span>
+
+        <strong id="mapEventCount">—</strong>
+
+    </div>
+
+    <div class="map-stat">
+
+        <span>Estimated Fatalities:</span>
+
+        <strong id="mapFatalitiesCount">—</strong>
+
+    </div>
+
+</div>
+<div id="conflictMap"></div>
+<p class="map-data-note">
+
+    Map visualization displays a reproducible sample of 10,000 geolocated events
+
+    for performance. Statistics are calculated using the complete dataset
+
+    of 216,383 recorded events (2015–2025).
+
+</p>
+<div class="map-legend">
+    <span class="legend-title">TYPE OF VIOLENCE</span>
+
+    <div class="legend-item">
+        <span class="legend-dot state"></span>
+        State-based conflict
+    </div>
+
+    <div class="legend-item">
+        <span class="legend-dot nonstate"></span>
+        Non-state conflict
+    </div>
+
+    <div class="legend-item">
+        <span class="legend-dot onesided"></span>
+        One-sided violence
+    </div>
+</div>
+        </section>
+<!-- COUNTRY INTELLIGENCE PROFILE -->
+<section class="country-intelligence">
+
+    <h2>Country Intelligence Profile</h2>
+
+    <p>
+        Explore historical conflict patterns and security indicators
+        using verified UCDP conflict data.
+    </p>
+
+    <div class="country-profile-controls">
+
+    <div class="profile-control-group">
+        <label for="profileCountry">COUNTRY 1</label>
+        <select id="profileCountry">
+            <option value="">Select a country</option>
+        </select>
+    </div>
+
+    <div class="profile-control-group">
+        <label for="compareCountry">COUNTRY 2 · OPTIONAL COMPARISON</label>
+        <select id="compareCountry">
+            <option value="">Select a country to compare</option>
+        </select>
+    </div>
+
+</div>
+
+    <div id="countryProfileResults">
+        <p>Select a country to explore its conflict intelligence profile.</p>
+    </div>
+    <div class="chart-container">
+    <canvas id="countryTrendsChart"></canvas>
+</div>
+<div class="comparison-section">
+    <h3>Country Comparison</h3>
+    <p>Compare recorded conflict events between two countries (2015–2025).</p>
+    <div id="countryComparisonStats" class="comparison-stats">
+    <p>Select two countries to view comparative intelligence indicators.</p>
+</div>
+    <div class="chart-container">
+        <canvas id="countryComparisonChart"></canvas>
+    </div>
+</div>
+</section>
+<!-- STRATEGIC INTELLIGENCE ASSESSMENT -->
+<section class="strategic-intelligence">
+
+    <h2>Strategic Intelligence Assessment</h2>
+
+    <p>
+        Historical conflict trend assessment based on
+        UCDP GED 26.1 data (2015–2025).
+    </p>
+
+    <div id="strategicAssessmentResults">
+        <p>
+            Select a country to explore its historical
+            conflict activity assessment.
+        </p>
+    </div>
+    <!-- STRATEGIC INTELLIGENCE INSIGHTS -->
+<div id="strategicInsights">
+    <h3>Strategic Intelligence Insights</h3>
+    <p>Select a country to generate data-driven intelligence insights.</p>
+</div>
+
+</section>
+<!-- COUNTRY COMPARISON -->
+
+    <h2>Country Conflict Comparison</h2>
+
+    <p>
+        Compare recorded conflict activity between two countries
+        using UCDP GED 26.1 historical data (2015–2025).
+    </p>
+
+    <div class="comparison-controls">
+        <div>
+            <label for="compareCountryA">Country A</label>
+            <select id="compareCountryA">
+                <option value="">Select a country</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="compareCountryB">Country B</label>
+            <select id="compareCountryB">
+                <option value="">Select a country</option>
+            </select>
+        </div>
+    </div>
+    <!-- COUNTRY COMPARISON — INTELLIGENCE INDICATORS -->
+<div id="historicalComparisonStats" class="comparison-stats">
+    <p>Select two countries to view comparative intelligence indicators.</p>
+</div>
+    <div class="chart-container">
+        <canvas id="historicalComparisonChart"></canvas>
+    </div>
+    <p class="comparison-note">
+    <strong>Data Interpretation:</strong>
+    Gaps in the chart indicate years without available records
+    in the dataset. Missing values are not treated as zero
+    recorded events.
+</p>
+
+    <p class="comparison-note">
+        Historical event counts are not a direct measure of
+        current security conditions or conflict severity.
+    </p>
+</section>
+    </main>
+
+    <footer>
+        <p>Data source: UCDP GED 26.1 | Independent analytical project</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js?v=2"></script>
+
+</body>
+</html>

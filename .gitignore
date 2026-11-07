@@ -1,0 +1,36 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS files
+.DS_Store
+
+# VS Code local settings
+.vscode/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.log
+*.tmp
+
+# Local Python testing
+.pytest_cache/
+
+# Original UCDP dataset
+
+# Excluded due to file size
+
+data/GEDEvent_v26_1.csv

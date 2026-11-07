@@ -1,0 +1,3516 @@
+{
+    "source": "UCDP GED 26.1",
+    "period": "2015-2025",
+    "total_events": 216383,
+    "countries_analyzed": 101,
+    "annual_events": [
+        {
+            "year": 2015,
+            "events": 19927
+        },
+        {
+            "year": 2016,
+            "events": 17416
+        },
+        {
+            "year": 2017,
+            "events": 16412
+        },
+        {
+            "year": 2018,
+            "events": 13646
+        },
+        {
+            "year": 2019,
+            "events": 13911
+        },
+        {
+            "year": 2020,
+            "events": 13484
+        },
+        {
+            "year": 2021,
+            "events": 17316
+        },
+        {
+            "year": 2022,
+            "events": 21013
+        },
+        {
+            "year": 2023,
+            "events": 27422
+        },
+        {
+            "year": 2024,
+            "events": 30066
+        },
+        {
+            "year": 2025,
+            "events": 25770
+        }
+    ],
+    "top_countries_2025": [
+        {
+            "country": "Ukraine",
+            "events": 7504
+        },
+        {
+            "country": "Israel",
+            "events": 3190
+        },
+        {
+            "country": "Mexico",
+            "events": 2988
+        },
+        {
+            "country": "Ethiopia",
+            "events": 1281
+        },
+        {
+            "country": "Pakistan",
+            "events": 1127
+        },
+        {
+            "country": "DR Congo (Zaire)",
+            "events": 1031
+        },
+        {
+            "country": "Nigeria",
+            "events": 732
+        },
+        {
+            "country": "Sudan",
+            "events": 718
+        },
+        {
+            "country": "Myanmar (Burma)",
+            "events": 710
+        },
+        {
+            "country": "Burkina Faso",
+            "events": 657
+        }
+    ],
+    "country_annual_events": [
+        {
+            "country": "Afghanistan",
+            "year": 2015,
+            "events": 2266
+        },
+        {
+            "country": "Afghanistan",
+            "year": 2016,
+            "events": 2428
+        },
+        {
+            "country": "Afghanistan",
+            "year": 2017,
+            "events": 2482
+        },
+        {
+            "country": "Afghanistan",
+            "year": 2018,
+            "events": 3724
+        },
+        {
+            "country": "Afghanistan",
+            "year": 2019,
+            "events": 4682
+        },
+        {
+            "country": "Afghanistan",
+            "year": 2020,
+            "events": 3317
+        },
+        {
+            "country": "Afghanistan",
+            "year": 2021,
+            "events": 4512
+        },
+        {
+            "country": "Afghanistan",
+            "year": 2022,
+            "events": 441
+        },
+        {
+            "country": "Afghanistan",
+            "year": 2023,
+            "events": 196
+        },
+        {
+            "country": "Afghanistan",
+            "year": 2024,
+            "events": 237
+        },
+        {
+            "country": "Afghanistan",
+            "year": 2025,
+            "events": 153
+        },
+        {
+            "country": "Algeria",
+            "year": 2015,
+            "events": 46
+        },
+        {
+            "country": "Algeria",
+            "year": 2016,
+            "events": 27
+        },
+        {
+            "country": "Algeria",
+            "year": 2017,
+            "events": 26
+        },
+        {
+            "country": "Algeria",
+            "year": 2018,
+            "events": 10
+        },
+        {
+            "country": "Algeria",
+            "year": 2019,
+            "events": 9
+        },
+        {
+            "country": "Algeria",
+            "year": 2020,
+            "events": 17
+        },
+        {
+            "country": "Algeria",
+            "year": 2021,
+            "events": 6
+        },
+        {
+            "country": "Algeria",
+            "year": 2022,
+            "events": 3
+        },
+        {
+            "country": "Algeria",
+            "year": 2023,
+            "events": 1
+        },
+        {
+            "country": "Algeria",
+            "year": 2024,
+            "events": 1
+        },
+        {
+            "country": "Angola",
+            "year": 2015,
+            "events": 2
+        },
+        {
+            "country": "Angola",
+            "year": 2016,
+            "events": 18
+        },
+        {
+            "country": "Angola",
+            "year": 2017,
+            "events": 24
+        },
+        {
+            "country": "Angola",
+            "year": 2018,
+            "events": 6
+        },
+        {
+            "country": "Angola",
+            "year": 2019,
+            "events": 11
+        },
+        {
+            "country": "Angola",
+            "year": 2020,
+            "events": 26
+        },
+        {
+            "country": "Angola",
+            "year": 2021,
+            "events": 4
+        },
+        {
+            "country": "Angola",
+            "year": 2022,
+            "events": 17
+        },
+        {
+            "country": "Angola",
+            "year": 2023,
+            "events": 1
+        },
+        {
+            "country": "Angola",
+            "year": 2024,
+            "events": 10
+        },
+        {
+            "country": "Angola",
+            "year": 2025,
+            "events": 7
+        },
+        {
+            "country": "Argentina",
+            "year": 2022,
+            "events": 132
+        },
+        {
+            "country": "Argentina",
+            "year": 2024,
+            "events": 24
+        },
+        {
+            "country": "Argentina",
+            "year": 2025,
+            "events": 41
+        },
+        {
+            "country": "Armenia",
+            "year": 2015,
+            "events": 8
+        },
+        {
+            "country": "Armenia",
+            "year": 2016,
+            "events": 1
+        },
+        {
+            "country": "Armenia",
+            "year": 2018,
+            "events": 1
+        },
+        {
+            "country": "Armenia",
+            "year": 2019,
+            "events": 2
+        },
+        {
+            "country": "Armenia",
+            "year": 2020,
+            "events": 8
+        },
+        {
+            "country": "Armenia",
+            "year": 2021,
+            "events": 8
+        },
+        {
+            "country": "Armenia",
+            "year": 2022,
+            "events": 8
+        },
+        {
+            "country": "Armenia",
+            "year": 2023,
+            "events": 10
+        },
+        {
+            "country": "Australia",
+            "year": 2018,
+            "events": 2
+        },
+        {
+            "country": "Austria",
+            "year": 2020,
+            "events": 1
+        },
+        {
+            "country": "Azerbaijan",
+            "year": 2015,
+            "events": 43
+        },
+        {
+            "country": "Azerbaijan",
+            "year": 2016,
+            "events": 31
+        },
+        {
+            "country": "Azerbaijan",
+            "year": 2017,
+            "events": 21
+        },
+        {
+            "country": "Azerbaijan",
+            "year": 2018,
+            "events": 17
+        },
+        {
+            "country": "Azerbaijan",
+            "year": 2019,
+            "events": 10
+        },
+        {
+            "country": "Azerbaijan",
+            "year": 2020,
+            "events": 141
+        },
+        {
+            "country": "Azerbaijan",
+            "year": 2021,
+            "events": 18
+        },
+        {
+            "country": "Azerbaijan",
+            "year": 2022,
+            "events": 9
+        },
+        {
+            "country": "Azerbaijan",
+            "year": 2023,
+            "events": 11
+        },
+        {
+            "country": "Bangladesh",
+            "year": 2015,
+            "events": 8
+        },
+        {
+            "country": "Bangladesh",
+            "year": 2016,
+            "events": 25
+        },
+        {
+            "country": "Bangladesh",
+            "year": 2017,
+            "events": 23
+        },
+        {
+            "country": "Bangladesh",
+            "year": 2018,
+            "events": 20
+        },
+        {
+            "country": "Bangladesh",
+            "year": 2019,
+            "events": 3
+        },
+        {
+            "country": "Bangladesh",
+            "year": 2020,
+            "events": 5
+        },
+        {
+            "country": "Bangladesh",
+            "year": 2021,
+            "events": 3
+        },
+        {
+            "country": "Bangladesh",
+            "year": 2022,
+            "events": 9
+        },
+        {
+            "country": "Bangladesh",
+            "year": 2023,
+            "events": 11
+        },
+        {
+            "country": "Bangladesh",
+            "year": 2024,
+            "events": 67
+        },
+        {
+            "country": "Bangladesh",
+            "year": 2025,
+            "events": 10
+        },
+        {
+            "country": "Belgium",
+            "year": 2016,
+            "events": 3
+        },
+        {
+            "country": "Belgium",
+            "year": 2018,
+            "events": 2
+        },
+        {
+            "country": "Belgium",
+            "year": 2023,
+            "events": 1
+        },
+        {
+            "country": "Benin",
+            "year": 2019,
+            "events": 1
+        },
+        {
+            "country": "Benin",
+            "year": 2020,
+            "events": 1
+        },
+        {
+            "country": "Benin",
+            "year": 2021,
+            "events": 6
+        },
+        {
+            "country": "Benin",
+            "year": 2022,
+            "events": 8
+        },
+        {
+            "country": "Benin",
+            "year": 2023,
+            "events": 20
+        },
+        {
+            "country": "Benin",
+            "year": 2024,
+            "events": 29
+        },
+        {
+            "country": "Benin",
+            "year": 2025,
+            "events": 31
+        },
+        {
+            "country": "Bolivia",
+            "year": 2021,
+            "events": 1
+        },
+        {
+            "country": "Bolivia",
+            "year": 2023,
+            "events": 1
+        },
+        {
+            "country": "Bolivia",
+            "year": 2025,
+            "events": 1
+        },
+        {
+            "country": "Brazil",
+            "year": 2015,
+            "events": 17
+        },
+        {
+            "country": "Brazil",
+            "year": 2016,
+            "events": 58
+        },
+        {
+            "country": "Brazil",
+            "year": 2017,
+            "events": 316
+        },
+        {
+            "country": "Brazil",
+            "year": 2018,
+            "events": 357
+        },
+        {
+            "country": "Brazil",
+            "year": 2019,
+            "events": 636
+        },
+        {
+            "country": "Brazil",
+            "year": 2020,
+            "events": 745
+        },
+        {
+            "country": "Brazil",
+            "year": 2021,
+            "events": 843
+        },
+        {
+            "country": "Brazil",
+            "year": 2022,
+            "events": 1522
+        },
+        {
+            "country": "Brazil",
+            "year": 2023,
+            "events": 2162
+        },
+        {
+            "country": "Brazil",
+            "year": 2024,
+            "events": 1495
+        },
+        {
+            "country": "Brazil",
+            "year": 2025,
+            "events": 552
+        },
+        {
+            "country": "Burkina Faso",
+            "year": 2015,
+            "events": 2
+        },
+        {
+            "country": "Burkina Faso",
+            "year": 2016,
+            "events": 2
+        },
+        {
+            "country": "Burkina Faso",
+            "year": 2017,
+            "events": 27
+        },
+        {
+            "country": "Burkina Faso",
+            "year": 2018,
+            "events": 65
+        },
+        {
+            "country": "Burkina Faso",
+            "year": 2019,
+            "events": 222
+        },
+        {
+            "country": "Burkina Faso",
+            "year": 2020,
+            "events": 166
+        },
+        {
+            "country": "Burkina Faso",
+            "year": 2021,
+            "events": 191
+        },
+        {
+            "country": "Burkina Faso",
+            "year": 2022,
+            "events": 237
+        },
+        {
+            "country": "Burkina Faso",
+            "year": 2023,
+            "events": 603
+        },
+        {
+            "country": "Burkina Faso",
+            "year": 2024,
+            "events": 307
+        },
+        {
+            "country": "Burkina Faso",
+            "year": 2025,
+            "events": 657
+        },
+        {
+            "country": "Burundi",
+            "year": 2015,
+            "events": 42
+        },
+        {
+            "country": "Burundi",
+            "year": 2016,
+            "events": 75
+        },
+        {
+            "country": "Burundi",
+            "year": 2017,
+            "events": 43
+        },
+        {
+            "country": "Burundi",
+            "year": 2018,
+            "events": 60
+        },
+        {
+            "country": "Burundi",
+            "year": 2019,
+            "events": 51
+        },
+        {
+            "country": "Burundi",
+            "year": 2020,
+            "events": 78
+        },
+        {
+            "country": "Burundi",
+            "year": 2021,
+            "events": 50
+        },
+        {
+            "country": "Burundi",
+            "year": 2022,
+            "events": 42
+        },
+        {
+            "country": "Burundi",
+            "year": 2023,
+            "events": 39
+        },
+        {
+            "country": "Burundi",
+            "year": 2024,
+            "events": 50
+        },
+        {
+            "country": "Burundi",
+            "year": 2025,
+            "events": 45
+        },
+        {
+            "country": "Cambodia (Kampuchea)",
+            "year": 2025,
+            "events": 15
+        },
+        {
+            "country": "Cameroon",
+            "year": 2015,
+            "events": 62
+        },
+        {
+            "country": "Cameroon",
+            "year": 2016,
+            "events": 97
+        },
+        {
+            "country": "Cameroon",
+            "year": 2017,
+            "events": 138
+        },
+        {
+            "country": "Cameroon",
+            "year": 2018,
+            "events": 253
+        },
+        {
+            "country": "Cameroon",
+            "year": 2019,
+            "events": 248
+        },
+        {
+            "country": "Cameroon",
+            "year": 2020,
+            "events": 261
+        },
+        {
+            "country": "Cameroon",
+            "year": 2021,
+            "events": 278
+        },
+        {
+            "country": "Cameroon",
+            "year": 2022,
+            "events": 225
+        },
+        {
+            "country": "Cameroon",
+            "year": 2023,
+            "events": 294
+        },
+        {
+            "country": "Cameroon",
+            "year": 2024,
+            "events": 193
+        },
+        {
+            "country": "Cameroon",
+            "year": 2025,
+            "events": 191
+        },
+        {
+            "country": "Central African Republic",
+            "year": 2015,
+            "events": 152
+        },
+        {
+            "country": "Central African Republic",
+            "year": 2016,
+            "events": 70
+        },
+        {
+            "country": "Central African Republic",
+            "year": 2017,
+            "events": 222
+        },
+        {
+            "country": "Central African Republic",
+            "year": 2018,
+            "events": 89
+        },
+        {
+            "country": "Central African Republic",
+            "year": 2019,
+            "events": 65
+        },
+        {
+            "country": "Central African Republic",
+            "year": 2020,
+            "events": 56
+        },
+        {
+            "country": "Central African Republic",
+            "year": 2021,
+            "events": 167
+        },
+        {
+            "country": "Central African Republic",
+            "year": 2022,
+            "events": 105
+        },
+        {
+            "country": "Central African Republic",
+            "year": 2023,
+            "events": 88
+        },
+        {
+            "country": "Central African Republic",
+            "year": 2024,
+            "events": 99
+        },
+        {
+            "country": "Central African Republic",
+            "year": 2025,
+            "events": 55
+        },
+        {
+            "country": "Chad",
+            "year": 2015,
+            "events": 29
+        },
+        {
+            "country": "Chad",
+            "year": 2016,
+            "events": 7
+        },
+        {
+            "country": "Chad",
+            "year": 2017,
+            "events": 6
+        },
+        {
+            "country": "Chad",
+            "year": 2018,
+            "events": 12
+        },
+        {
+            "country": "Chad",
+            "year": 2019,
+            "events": 24
+        },
+        {
+            "country": "Chad",
+            "year": 2020,
+            "events": 26
+        },
+        {
+            "country": "Chad",
+            "year": 2021,
+            "events": 13
+        },
+        {
+            "country": "Chad",
+            "year": 2022,
+            "events": 12
+        },
+        {
+            "country": "Chad",
+            "year": 2023,
+            "events": 11
+        },
+        {
+            "country": "Chad",
+            "year": 2024,
+            "events": 24
+        },
+        {
+            "country": "Chad",
+            "year": 2025,
+            "events": 21
+        },
+        {
+            "country": "China",
+            "year": 2015,
+            "events": 1
+        },
+        {
+            "country": "China",
+            "year": 2017,
+            "events": 2
+        },
+        {
+            "country": "China",
+            "year": 2023,
+            "events": 1
+        },
+        {
+            "country": "Colombia",
+            "year": 2015,
+            "events": 69
+        },
+        {
+            "country": "Colombia",
+            "year": 2016,
+            "events": 101
+        },
+        {
+            "country": "Colombia",
+            "year": 2017,
+            "events": 218
+        },
+        {
+            "country": "Colombia",
+            "year": 2018,
+            "events": 274
+        },
+        {
+            "country": "Colombia",
+            "year": 2019,
+            "events": 115
+        },
+        {
+            "country": "Colombia",
+            "year": 2020,
+            "events": 147
+        },
+        {
+            "country": "Colombia",
+            "year": 2021,
+            "events": 172
+        },
+        {
+            "country": "Colombia",
+            "year": 2022,
+            "events": 173
+        },
+        {
+            "country": "Colombia",
+            "year": 2023,
+            "events": 422
+        },
+        {
+            "country": "Colombia",
+            "year": 2024,
+            "events": 479
+        },
+        {
+            "country": "Colombia",
+            "year": 2025,
+            "events": 575
+        },
+        {
+            "country": "Congo",
+            "year": 2015,
+            "events": 1
+        },
+        {
+            "country": "Congo",
+            "year": 2016,
+            "events": 8
+        },
+        {
+            "country": "Congo",
+            "year": 2017,
+            "events": 3
+        },
+        {
+            "country": "Congo",
+            "year": 2019,
+            "events": 2
+        },
+        {
+            "country": "Congo",
+            "year": 2020,
+            "events": 1
+        },
+        {
+            "country": "Congo",
+            "year": 2022,
+            "events": 2
+        },
+        {
+            "country": "Costa Rica",
+            "year": 2023,
+            "events": 8
+        },
+        {
+            "country": "Costa Rica",
+            "year": 2024,
+            "events": 50
+        },
+        {
+            "country": "Costa Rica",
+            "year": 2025,
+            "events": 140
+        },
+        {
+            "country": "DR Congo (Zaire)",
+            "year": 2015,
+            "events": 124
+        },
+        {
+            "country": "DR Congo (Zaire)",
+            "year": 2016,
+            "events": 213
+        },
+        {
+            "country": "DR Congo (Zaire)",
+            "year": 2017,
+            "events": 503
+        },
+        {
+            "country": "DR Congo (Zaire)",
+            "year": 2018,
+            "events": 462
+        },
+        {
+            "country": "DR Congo (Zaire)",
+            "year": 2019,
+            "events": 441
+        },
+        {
+            "country": "DR Congo (Zaire)",
+            "year": 2020,
+            "events": 834
+        },
+        {
+            "country": "DR Congo (Zaire)",
+            "year": 2021,
+            "events": 811
+        },
+        {
+            "country": "DR Congo (Zaire)",
+            "year": 2022,
+            "events": 1155
+        },
+        {
+            "country": "DR Congo (Zaire)",
+            "year": 2023,
+            "events": 840
+        },
+        {
+            "country": "DR Congo (Zaire)",
+            "year": 2024,
+            "events": 801
+        },
+        {
+            "country": "DR Congo (Zaire)",
+            "year": 2025,
+            "events": 1031
+        },
+        {
+            "country": "Djibouti",
+            "year": 2018,
+            "events": 1
+        },
+        {
+            "country": "Djibouti",
+            "year": 2021,
+            "events": 1
+        },
+        {
+            "country": "Ecuador",
+            "year": 2019,
+            "events": 1
+        },
+        {
+            "country": "Ecuador",
+            "year": 2020,
+            "events": 1
+        },
+        {
+            "country": "Ecuador",
+            "year": 2021,
+            "events": 8
+        },
+        {
+            "country": "Ecuador",
+            "year": 2022,
+            "events": 11
+        },
+        {
+            "country": "Ecuador",
+            "year": 2023,
+            "events": 454
+        },
+        {
+            "country": "Ecuador",
+            "year": 2024,
+            "events": 245
+        },
+        {
+            "country": "Ecuador",
+            "year": 2025,
+            "events": 252
+        },
+        {
+            "country": "Egypt",
+            "year": 2015,
+            "events": 62
+        },
+        {
+            "country": "Egypt",
+            "year": 2016,
+            "events": 40
+        },
+        {
+            "country": "Egypt",
+            "year": 2017,
+            "events": 111
+        },
+        {
+            "country": "Egypt",
+            "year": 2018,
+            "events": 86
+        },
+        {
+            "country": "Egypt",
+            "year": 2019,
+            "events": 120
+        },
+        {
+            "country": "Egypt",
+            "year": 2020,
+            "events": 124
+        },
+        {
+            "country": "Egypt",
+            "year": 2021,
+            "events": 64
+        },
+        {
+            "country": "Egypt",
+            "year": 2022,
+            "events": 68
+        },
+        {
+            "country": "Egypt",
+            "year": 2023,
+            "events": 4
+        },
+        {
+            "country": "Egypt",
+            "year": 2025,
+            "events": 1
+        },
+        {
+            "country": "El Salvador",
+            "year": 2015,
+            "events": 1
+        },
+        {
+            "country": "El Salvador",
+            "year": 2016,
+            "events": 1
+        },
+        {
+            "country": "El Salvador",
+            "year": 2017,
+            "events": 3
+        },
+        {
+            "country": "El Salvador",
+            "year": 2019,
+            "events": 2
+        },
+        {
+            "country": "El Salvador",
+            "year": 2021,
+            "events": 6
+        },
+        {
+            "country": "El Salvador",
+            "year": 2022,
+            "events": 68
+        },
+        {
+            "country": "Eritrea",
+            "year": 2016,
+            "events": 1
+        },
+        {
+            "country": "Eritrea",
+            "year": 2022,
+            "events": 4
+        },
+        {
+            "country": "Ethiopia",
+            "year": 2015,
+            "events": 97
+        },
+        {
+            "country": "Ethiopia",
+            "year": 2016,
+            "events": 148
+        },
+        {
+            "country": "Ethiopia",
+            "year": 2017,
+            "events": 41
+        },
+        {
+            "country": "Ethiopia",
+            "year": 2018,
+            "events": 63
+        },
+        {
+            "country": "Ethiopia",
+            "year": 2019,
+            "events": 63
+        },
+        {
+            "country": "Ethiopia",
+            "year": 2020,
+            "events": 264
+        },
+        {
+            "country": "Ethiopia",
+            "year": 2021,
+            "events": 730
+        },
+        {
+            "country": "Ethiopia",
+            "year": 2022,
+            "events": 879
+        },
+        {
+            "country": "Ethiopia",
+            "year": 2023,
+            "events": 581
+        },
+        {
+            "country": "Ethiopia",
+            "year": 2024,
+            "events": 882
+        },
+        {
+            "country": "Ethiopia",
+            "year": 2025,
+            "events": 1281
+        },
+        {
+            "country": "France",
+            "year": 2015,
+            "events": 2
+        },
+        {
+            "country": "France",
+            "year": 2016,
+            "events": 2
+        },
+        {
+            "country": "France",
+            "year": 2017,
+            "events": 1
+        },
+        {
+            "country": "France",
+            "year": 2018,
+            "events": 8
+        },
+        {
+            "country": "France",
+            "year": 2023,
+            "events": 42
+        },
+        {
+            "country": "France",
+            "year": 2024,
+            "events": 3
+        },
+        {
+            "country": "Gambia",
+            "year": 2024,
+            "events": 1
+        },
+        {
+            "country": "Georgia",
+            "year": 2023,
+            "events": 1
+        },
+        {
+            "country": "Germany",
+            "year": 2016,
+            "events": 1
+        },
+        {
+            "country": "Germany",
+            "year": 2024,
+            "events": 1
+        },
+        {
+            "country": "Ghana",
+            "year": 2022,
+            "events": 5
+        },
+        {
+            "country": "Ghana",
+            "year": 2023,
+            "events": 9
+        },
+        {
+            "country": "Ghana",
+            "year": 2024,
+            "events": 5
+        },
+        {
+            "country": "Ghana",
+            "year": 2025,
+            "events": 22
+        },
+        {
+            "country": "Guatemala",
+            "year": 2015,
+            "events": 4
+        },
+        {
+            "country": "Guatemala",
+            "year": 2016,
+            "events": 2
+        },
+        {
+            "country": "Guatemala",
+            "year": 2017,
+            "events": 1
+        },
+        {
+            "country": "Guatemala",
+            "year": 2018,
+            "events": 2
+        },
+        {
+            "country": "Guatemala",
+            "year": 2019,
+            "events": 1
+        },
+        {
+            "country": "Guatemala",
+            "year": 2021,
+            "events": 1
+        },
+        {
+            "country": "Guatemala",
+            "year": 2022,
+            "events": 8
+        },
+        {
+            "country": "Guatemala",
+            "year": 2023,
+            "events": 4
+        },
+        {
+            "country": "Guatemala",
+            "year": 2024,
+            "events": 34
+        },
+        {
+            "country": "Guatemala",
+            "year": 2025,
+            "events": 22
+        },
+        {
+            "country": "Guinea",
+            "year": 2015,
+            "events": 1
+        },
+        {
+            "country": "Guinea",
+            "year": 2019,
+            "events": 1
+        },
+        {
+            "country": "Guinea",
+            "year": 2020,
+            "events": 3
+        },
+        {
+            "country": "Guinea",
+            "year": 2021,
+            "events": 1
+        },
+        {
+            "country": "Haiti",
+            "year": 2017,
+            "events": 1
+        },
+        {
+            "country": "Haiti",
+            "year": 2018,
+            "events": 1
+        },
+        {
+            "country": "Haiti",
+            "year": 2019,
+            "events": 1
+        },
+        {
+            "country": "Haiti",
+            "year": 2020,
+            "events": 49
+        },
+        {
+            "country": "Haiti",
+            "year": 2021,
+            "events": 26
+        },
+        {
+            "country": "Haiti",
+            "year": 2022,
+            "events": 65
+        },
+        {
+            "country": "Haiti",
+            "year": 2023,
+            "events": 50
+        },
+        {
+            "country": "Haiti",
+            "year": 2024,
+            "events": 123
+        },
+        {
+            "country": "Haiti",
+            "year": 2025,
+            "events": 188
+        },
+        {
+            "country": "Honduras",
+            "year": 2015,
+            "events": 15
+        },
+        {
+            "country": "Honduras",
+            "year": 2016,
+            "events": 4
+        },
+        {
+            "country": "Honduras",
+            "year": 2017,
+            "events": 1
+        },
+        {
+            "country": "Honduras",
+            "year": 2018,
+            "events": 4
+        },
+        {
+            "country": "Honduras",
+            "year": 2019,
+            "events": 8
+        },
+        {
+            "country": "Honduras",
+            "year": 2020,
+            "events": 1
+        },
+        {
+            "country": "Honduras",
+            "year": 2021,
+            "events": 5
+        },
+        {
+            "country": "Honduras",
+            "year": 2022,
+            "events": 5
+        },
+        {
+            "country": "Honduras",
+            "year": 2023,
+            "events": 33
+        },
+        {
+            "country": "Honduras",
+            "year": 2024,
+            "events": 30
+        },
+        {
+            "country": "Honduras",
+            "year": 2025,
+            "events": 1
+        },
+        {
+            "country": "India",
+            "year": 2015,
+            "events": 321
+        },
+        {
+            "country": "India",
+            "year": 2016,
+            "events": 419
+        },
+        {
+            "country": "India",
+            "year": 2017,
+            "events": 400
+        },
+        {
+            "country": "India",
+            "year": 2018,
+            "events": 481
+        },
+        {
+            "country": "India",
+            "year": 2019,
+            "events": 354
+        },
+        {
+            "country": "India",
+            "year": 2020,
+            "events": 390
+        },
+        {
+            "country": "India",
+            "year": 2021,
+            "events": 277
+        },
+        {
+            "country": "India",
+            "year": 2022,
+            "events": 266
+        },
+        {
+            "country": "India",
+            "year": 2023,
+            "events": 217
+        },
+        {
+            "country": "India",
+            "year": 2024,
+            "events": 234
+        },
+        {
+            "country": "India",
+            "year": 2025,
+            "events": 209
+        },
+        {
+            "country": "Indonesia",
+            "year": 2015,
+            "events": 3
+        },
+        {
+            "country": "Indonesia",
+            "year": 2017,
+            "events": 3
+        },
+        {
+            "country": "Indonesia",
+            "year": 2018,
+            "events": 11
+        },
+        {
+            "country": "Indonesia",
+            "year": 2019,
+            "events": 22
+        },
+        {
+            "country": "Indonesia",
+            "year": 2020,
+            "events": 24
+        },
+        {
+            "country": "Indonesia",
+            "year": 2021,
+            "events": 43
+        },
+        {
+            "country": "Indonesia",
+            "year": 2022,
+            "events": 33
+        },
+        {
+            "country": "Indonesia",
+            "year": 2023,
+            "events": 39
+        },
+        {
+            "country": "Indonesia",
+            "year": 2024,
+            "events": 63
+        },
+        {
+            "country": "Indonesia",
+            "year": 2025,
+            "events": 77
+        },
+        {
+            "country": "Iran",
+            "year": 2015,
+            "events": 8
+        },
+        {
+            "country": "Iran",
+            "year": 2016,
+            "events": 25
+        },
+        {
+            "country": "Iran",
+            "year": 2017,
+            "events": 12
+        },
+        {
+            "country": "Iran",
+            "year": 2018,
+            "events": 18
+        },
+        {
+            "country": "Iran",
+            "year": 2019,
+            "events": 89
+        },
+        {
+            "country": "Iran",
+            "year": 2020,
+            "events": 26
+        },
+        {
+            "country": "Iran",
+            "year": 2021,
+            "events": 34
+        },
+        {
+            "country": "Iran",
+            "year": 2022,
+            "events": 158
+        },
+        {
+            "country": "Iran",
+            "year": 2023,
+            "events": 13
+        },
+        {
+            "country": "Iran",
+            "year": 2024,
+            "events": 34
+        },
+        {
+            "country": "Iran",
+            "year": 2025,
+            "events": 76
+        },
+        {
+            "country": "Iraq",
+            "year": 2015,
+            "events": 687
+        },
+        {
+            "country": "Iraq",
+            "year": 2016,
+            "events": 729
+        },
+        {
+            "country": "Iraq",
+            "year": 2017,
+            "events": 618
+        },
+        {
+            "country": "Iraq",
+            "year": 2018,
+            "events": 274
+        },
+        {
+            "country": "Iraq",
+            "year": 2019,
+            "events": 301
+        },
+        {
+            "country": "Iraq",
+            "year": 2020,
+            "events": 282
+        },
+        {
+            "country": "Iraq",
+            "year": 2021,
+            "events": 373
+        },
+        {
+            "country": "Iraq",
+            "year": 2022,
+            "events": 380
+        },
+        {
+            "country": "Iraq",
+            "year": 2023,
+            "events": 249
+        },
+        {
+            "country": "Iraq",
+            "year": 2024,
+            "events": 287
+        },
+        {
+            "country": "Iraq",
+            "year": 2025,
+            "events": 91
+        },
+        {
+            "country": "Israel",
+            "year": 2015,
+            "events": 13
+        },
+        {
+            "country": "Israel",
+            "year": 2016,
+            "events": 12
+        },
+        {
+            "country": "Israel",
+            "year": 2017,
+            "events": 9
+        },
+        {
+            "country": "Israel",
+            "year": 2018,
+            "events": 52
+        },
+        {
+            "country": "Israel",
+            "year": 2019,
+            "events": 44
+        },
+        {
+            "country": "Israel",
+            "year": 2020,
+            "events": 7
+        },
+        {
+            "country": "Israel",
+            "year": 2021,
+            "events": 107
+        },
+        {
+            "country": "Israel",
+            "year": 2022,
+            "events": 47
+        },
+        {
+            "country": "Israel",
+            "year": 2023,
+            "events": 1428
+        },
+        {
+            "country": "Israel",
+            "year": 2024,
+            "events": 3145
+        },
+        {
+            "country": "Israel",
+            "year": 2025,
+            "events": 3190
+        },
+        {
+            "country": "Ivory Coast",
+            "year": 2016,
+            "events": 2
+        },
+        {
+            "country": "Ivory Coast",
+            "year": 2020,
+            "events": 1
+        },
+        {
+            "country": "Jamaica",
+            "year": 2024,
+            "events": 5
+        },
+        {
+            "country": "Jordan",
+            "year": 2015,
+            "events": 1
+        },
+        {
+            "country": "Jordan",
+            "year": 2016,
+            "events": 5
+        },
+        {
+            "country": "Jordan",
+            "year": 2024,
+            "events": 1
+        },
+        {
+            "country": "Kenya",
+            "year": 2015,
+            "events": 42
+        },
+        {
+            "country": "Kenya",
+            "year": 2016,
+            "events": 48
+        },
+        {
+            "country": "Kenya",
+            "year": 2017,
+            "events": 107
+        },
+        {
+            "country": "Kenya",
+            "year": 2018,
+            "events": 69
+        },
+        {
+            "country": "Kenya",
+            "year": 2019,
+            "events": 51
+        },
+        {
+            "country": "Kenya",
+            "year": 2020,
+            "events": 65
+        },
+        {
+            "country": "Kenya",
+            "year": 2021,
+            "events": 54
+        },
+        {
+            "country": "Kenya",
+            "year": 2022,
+            "events": 31
+        },
+        {
+            "country": "Kenya",
+            "year": 2023,
+            "events": 57
+        },
+        {
+            "country": "Kenya",
+            "year": 2024,
+            "events": 30
+        },
+        {
+            "country": "Kenya",
+            "year": 2025,
+            "events": 31
+        },
+        {
+            "country": "Kingdom of eSwatini (Swaziland)",
+            "year": 2019,
+            "events": 3
+        },
+        {
+            "country": "Kingdom of eSwatini (Swaziland)",
+            "year": 2020,
+            "events": 2
+        },
+        {
+            "country": "Kingdom of eSwatini (Swaziland)",
+            "year": 2021,
+            "events": 11
+        },
+        {
+            "country": "Kingdom of eSwatini (Swaziland)",
+            "year": 2022,
+            "events": 2
+        },
+        {
+            "country": "Kingdom of eSwatini (Swaziland)",
+            "year": 2023,
+            "events": 2
+        },
+        {
+            "country": "Kingdom of eSwatini (Swaziland)",
+            "year": 2025,
+            "events": 1
+        },
+        {
+            "country": "Kuwait",
+            "year": 2015,
+            "events": 1
+        },
+        {
+            "country": "Kyrgyzstan",
+            "year": 2015,
+            "events": 1
+        },
+        {
+            "country": "Kyrgyzstan",
+            "year": 2021,
+            "events": 3
+        },
+        {
+            "country": "Kyrgyzstan",
+            "year": 2022,
+            "events": 32
+        },
+        {
+            "country": "Lebanon",
+            "year": 2015,
+            "events": 19
+        },
+        {
+            "country": "Lebanon",
+            "year": 2016,
+            "events": 13
+        },
+        {
+            "country": "Lebanon",
+            "year": 2017,
+            "events": 20
+        },
+        {
+            "country": "Lebanon",
+            "year": 2018,
+            "events": 1
+        },
+        {
+            "country": "Lebanon",
+            "year": 2020,
+            "events": 4
+        },
+        {
+            "country": "Lebanon",
+            "year": 2023,
+            "events": 39
+        },
+        {
+            "country": "Lebanon",
+            "year": 2024,
+            "events": 1114
+        },
+        {
+            "country": "Lebanon",
+            "year": 2025,
+            "events": 211
+        },
+        {
+            "country": "Liberia",
+            "year": 2019,
+            "events": 1
+        },
+        {
+            "country": "Liberia",
+            "year": 2020,
+            "events": 2
+        },
+        {
+            "country": "Liberia",
+            "year": 2024,
+            "events": 1
+        },
+        {
+            "country": "Libya",
+            "year": 2015,
+            "events": 161
+        },
+        {
+            "country": "Libya",
+            "year": 2016,
+            "events": 184
+        },
+        {
+            "country": "Libya",
+            "year": 2017,
+            "events": 80
+        },
+        {
+            "country": "Libya",
+            "year": 2018,
+            "events": 123
+        },
+        {
+            "country": "Libya",
+            "year": 2019,
+            "events": 186
+        },
+        {
+            "country": "Libya",
+            "year": 2020,
+            "events": 131
+        },
+        {
+            "country": "Libya",
+            "year": 2021,
+            "events": 7
+        },
+        {
+            "country": "Libya",
+            "year": 2022,
+            "events": 7
+        },
+        {
+            "country": "Libya",
+            "year": 2023,
+            "events": 1
+        },
+        {
+            "country": "Libya",
+            "year": 2024,
+            "events": 1
+        },
+        {
+            "country": "Madagascar (Malagasy)",
+            "year": 2017,
+            "events": 1
+        },
+        {
+            "country": "Madagascar (Malagasy)",
+            "year": 2019,
+            "events": 3
+        },
+        {
+            "country": "Madagascar (Malagasy)",
+            "year": 2020,
+            "events": 1
+        },
+        {
+            "country": "Malaysia",
+            "year": 2017,
+            "events": 1
+        },
+        {
+            "country": "Mali",
+            "year": 2015,
+            "events": 55
+        },
+        {
+            "country": "Mali",
+            "year": 2016,
+            "events": 53
+        },
+        {
+            "country": "Mali",
+            "year": 2017,
+            "events": 127
+        },
+        {
+            "country": "Mali",
+            "year": 2018,
+            "events": 236
+        },
+        {
+            "country": "Mali",
+            "year": 2019,
+            "events": 199
+        },
+        {
+            "country": "Mali",
+            "year": 2020,
+            "events": 234
+        },
+        {
+            "country": "Mali",
+            "year": 2021,
+            "events": 215
+        },
+        {
+            "country": "Mali",
+            "year": 2022,
+            "events": 409
+        },
+        {
+            "country": "Mali",
+            "year": 2023,
+            "events": 320
+        },
+        {
+            "country": "Mali",
+            "year": 2024,
+            "events": 447
+        },
+        {
+            "country": "Mali",
+            "year": 2025,
+            "events": 506
+        },
+        {
+            "country": "Malta",
+            "year": 2025,
+            "events": 1
+        },
+        {
+            "country": "Mauritania",
+            "year": 2019,
+            "events": 1
+        },
+        {
+            "country": "Mauritania",
+            "year": 2020,
+            "events": 1
+        },
+        {
+            "country": "Mauritania",
+            "year": 2023,
+            "events": 2
+        },
+        {
+            "country": "Mauritania",
+            "year": 2024,
+            "events": 1
+        },
+        {
+            "country": "Mexico",
+            "year": 2015,
+            "events": 258
+        },
+        {
+            "country": "Mexico",
+            "year": 2016,
+            "events": 187
+        },
+        {
+            "country": "Mexico",
+            "year": 2017,
+            "events": 348
+        },
+        {
+            "country": "Mexico",
+            "year": 2018,
+            "events": 714
+        },
+        {
+            "country": "Mexico",
+            "year": 2019,
+            "events": 1025
+        },
+        {
+            "country": "Mexico",
+            "year": 2020,
+            "events": 2034
+        },
+        {
+            "country": "Mexico",
+            "year": 2021,
+            "events": 3748
+        },
+        {
+            "country": "Mexico",
+            "year": 2022,
+            "events": 2179
+        },
+        {
+            "country": "Mexico",
+            "year": 2023,
+            "events": 2748
+        },
+        {
+            "country": "Mexico",
+            "year": 2024,
+            "events": 2687
+        },
+        {
+            "country": "Mexico",
+            "year": 2025,
+            "events": 2988
+        },
+        {
+            "country": "Morocco",
+            "year": 2020,
+            "events": 1
+        },
+        {
+            "country": "Morocco",
+            "year": 2021,
+            "events": 7
+        },
+        {
+            "country": "Morocco",
+            "year": 2022,
+            "events": 4
+        },
+        {
+            "country": "Morocco",
+            "year": 2023,
+            "events": 2
+        },
+        {
+            "country": "Morocco",
+            "year": 2024,
+            "events": 2
+        },
+        {
+            "country": "Morocco",
+            "year": 2025,
+            "events": 2
+        },
+        {
+            "country": "Mozambique",
+            "year": 2016,
+            "events": 31
+        },
+        {
+            "country": "Mozambique",
+            "year": 2017,
+            "events": 3
+        },
+        {
+            "country": "Mozambique",
+            "year": 2018,
+            "events": 48
+        },
+        {
+            "country": "Mozambique",
+            "year": 2019,
+            "events": 124
+        },
+        {
+            "country": "Mozambique",
+            "year": 2020,
+            "events": 213
+        },
+        {
+            "country": "Mozambique",
+            "year": 2021,
+            "events": 235
+        },
+        {
+            "country": "Mozambique",
+            "year": 2022,
+            "events": 268
+        },
+        {
+            "country": "Mozambique",
+            "year": 2023,
+            "events": 102
+        },
+        {
+            "country": "Mozambique",
+            "year": 2024,
+            "events": 185
+        },
+        {
+            "country": "Mozambique",
+            "year": 2025,
+            "events": 184
+        },
+        {
+            "country": "Myanmar (Burma)",
+            "year": 2015,
+            "events": 198
+        },
+        {
+            "country": "Myanmar (Burma)",
+            "year": 2016,
+            "events": 57
+        },
+        {
+            "country": "Myanmar (Burma)",
+            "year": 2017,
+            "events": 88
+        },
+        {
+            "country": "Myanmar (Burma)",
+            "year": 2018,
+            "events": 71
+        },
+        {
+            "country": "Myanmar (Burma)",
+            "year": 2019,
+            "events": 148
+        },
+        {
+            "country": "Myanmar (Burma)",
+            "year": 2020,
+            "events": 77
+        },
+        {
+            "country": "Myanmar (Burma)",
+            "year": 2021,
+            "events": 857
+        },
+        {
+            "country": "Myanmar (Burma)",
+            "year": 2022,
+            "events": 1549
+        },
+        {
+            "country": "Myanmar (Burma)",
+            "year": 2023,
+            "events": 2090
+        },
+        {
+            "country": "Myanmar (Burma)",
+            "year": 2024,
+            "events": 1096
+        },
+        {
+            "country": "Myanmar (Burma)",
+            "year": 2025,
+            "events": 710
+        },
+        {
+            "country": "Nepal",
+            "year": 2022,
+            "events": 1
+        },
+        {
+            "country": "Nepal",
+            "year": 2025,
+            "events": 1
+        },
+        {
+            "country": "Netherlands",
+            "year": 2015,
+            "events": 1
+        },
+        {
+            "country": "Niger",
+            "year": 2015,
+            "events": 43
+        },
+        {
+            "country": "Niger",
+            "year": 2016,
+            "events": 18
+        },
+        {
+            "country": "Niger",
+            "year": 2017,
+            "events": 16
+        },
+        {
+            "country": "Niger",
+            "year": 2018,
+            "events": 25
+        },
+        {
+            "country": "Niger",
+            "year": 2019,
+            "events": 72
+        },
+        {
+            "country": "Niger",
+            "year": 2020,
+            "events": 68
+        },
+        {
+            "country": "Niger",
+            "year": 2021,
+            "events": 78
+        },
+        {
+            "country": "Niger",
+            "year": 2022,
+            "events": 73
+        },
+        {
+            "country": "Niger",
+            "year": 2023,
+            "events": 97
+        },
+        {
+            "country": "Niger",
+            "year": 2024,
+            "events": 88
+        },
+        {
+            "country": "Niger",
+            "year": 2025,
+            "events": 137
+        },
+        {
+            "country": "Nigeria",
+            "year": 2015,
+            "events": 505
+        },
+        {
+            "country": "Nigeria",
+            "year": 2016,
+            "events": 436
+        },
+        {
+            "country": "Nigeria",
+            "year": 2017,
+            "events": 509
+        },
+        {
+            "country": "Nigeria",
+            "year": 2018,
+            "events": 536
+        },
+        {
+            "country": "Nigeria",
+            "year": 2019,
+            "events": 537
+        },
+        {
+            "country": "Nigeria",
+            "year": 2020,
+            "events": 643
+        },
+        {
+            "country": "Nigeria",
+            "year": 2021,
+            "events": 532
+        },
+        {
+            "country": "Nigeria",
+            "year": 2022,
+            "events": 485
+        },
+        {
+            "country": "Nigeria",
+            "year": 2023,
+            "events": 652
+        },
+        {
+            "country": "Nigeria",
+            "year": 2024,
+            "events": 502
+        },
+        {
+            "country": "Nigeria",
+            "year": 2025,
+            "events": 732
+        },
+        {
+            "country": "Pakistan",
+            "year": 2015,
+            "events": 285
+        },
+        {
+            "country": "Pakistan",
+            "year": 2016,
+            "events": 158
+        },
+        {
+            "country": "Pakistan",
+            "year": 2017,
+            "events": 163
+        },
+        {
+            "country": "Pakistan",
+            "year": 2018,
+            "events": 93
+        },
+        {
+            "country": "Pakistan",
+            "year": 2019,
+            "events": 100
+        },
+        {
+            "country": "Pakistan",
+            "year": 2020,
+            "events": 147
+        },
+        {
+            "country": "Pakistan",
+            "year": 2021,
+            "events": 194
+        },
+        {
+            "country": "Pakistan",
+            "year": 2022,
+            "events": 287
+        },
+        {
+            "country": "Pakistan",
+            "year": 2023,
+            "events": 387
+        },
+        {
+            "country": "Pakistan",
+            "year": 2024,
+            "events": 733
+        },
+        {
+            "country": "Pakistan",
+            "year": 2025,
+            "events": 1127
+        },
+        {
+            "country": "Papua New Guinea",
+            "year": 2019,
+            "events": 3
+        },
+        {
+            "country": "Papua New Guinea",
+            "year": 2021,
+            "events": 5
+        },
+        {
+            "country": "Papua New Guinea",
+            "year": 2022,
+            "events": 16
+        },
+        {
+            "country": "Papua New Guinea",
+            "year": 2023,
+            "events": 5
+        },
+        {
+            "country": "Papua New Guinea",
+            "year": 2024,
+            "events": 8
+        },
+        {
+            "country": "Papua New Guinea",
+            "year": 2025,
+            "events": 4
+        },
+        {
+            "country": "Paraguay",
+            "year": 2016,
+            "events": 1
+        },
+        {
+            "country": "Paraguay",
+            "year": 2018,
+            "events": 1
+        },
+        {
+            "country": "Paraguay",
+            "year": 2020,
+            "events": 1
+        },
+        {
+            "country": "Paraguay",
+            "year": 2021,
+            "events": 1
+        },
+        {
+            "country": "Peru",
+            "year": 2015,
+            "events": 4
+        },
+        {
+            "country": "Peru",
+            "year": 2016,
+            "events": 2
+        },
+        {
+            "country": "Peru",
+            "year": 2017,
+            "events": 2
+        },
+        {
+            "country": "Peru",
+            "year": 2019,
+            "events": 1
+        },
+        {
+            "country": "Peru",
+            "year": 2020,
+            "events": 3
+        },
+        {
+            "country": "Peru",
+            "year": 2021,
+            "events": 3
+        },
+        {
+            "country": "Peru",
+            "year": 2022,
+            "events": 3
+        },
+        {
+            "country": "Peru",
+            "year": 2023,
+            "events": 2
+        },
+        {
+            "country": "Philippines",
+            "year": 2015,
+            "events": 203
+        },
+        {
+            "country": "Philippines",
+            "year": 2016,
+            "events": 168
+        },
+        {
+            "country": "Philippines",
+            "year": 2017,
+            "events": 267
+        },
+        {
+            "country": "Philippines",
+            "year": 2018,
+            "events": 123
+        },
+        {
+            "country": "Philippines",
+            "year": 2019,
+            "events": 130
+        },
+        {
+            "country": "Philippines",
+            "year": 2020,
+            "events": 158
+        },
+        {
+            "country": "Philippines",
+            "year": 2021,
+            "events": 143
+        },
+        {
+            "country": "Philippines",
+            "year": 2022,
+            "events": 128
+        },
+        {
+            "country": "Philippines",
+            "year": 2023,
+            "events": 117
+        },
+        {
+            "country": "Philippines",
+            "year": 2024,
+            "events": 83
+        },
+        {
+            "country": "Philippines",
+            "year": 2025,
+            "events": 76
+        },
+        {
+            "country": "Poland",
+            "year": 2022,
+            "events": 1
+        },
+        {
+            "country": "Qatar",
+            "year": 2025,
+            "events": 1
+        },
+        {
+            "country": "Russia (Soviet Union)",
+            "year": 2015,
+            "events": 31
+        },
+        {
+            "country": "Russia (Soviet Union)",
+            "year": 2016,
+            "events": 29
+        },
+        {
+            "country": "Russia (Soviet Union)",
+            "year": 2017,
+            "events": 28
+        },
+        {
+            "country": "Russia (Soviet Union)",
+            "year": 2018,
+            "events": 21
+        },
+        {
+            "country": "Russia (Soviet Union)",
+            "year": 2019,
+            "events": 12
+        },
+        {
+            "country": "Russia (Soviet Union)",
+            "year": 2020,
+            "events": 18
+        },
+        {
+            "country": "Russia (Soviet Union)",
+            "year": 2021,
+            "events": 2
+        },
+        {
+            "country": "Russia (Soviet Union)",
+            "year": 2022,
+            "events": 32
+        },
+        {
+            "country": "Russia (Soviet Union)",
+            "year": 2023,
+            "events": 87
+        },
+        {
+            "country": "Russia (Soviet Union)",
+            "year": 2024,
+            "events": 734
+        },
+        {
+            "country": "Russia (Soviet Union)",
+            "year": 2025,
+            "events": 537
+        },
+        {
+            "country": "Rwanda",
+            "year": 2016,
+            "events": 26
+        },
+        {
+            "country": "Rwanda",
+            "year": 2017,
+            "events": 9
+        },
+        {
+            "country": "Rwanda",
+            "year": 2018,
+            "events": 4
+        },
+        {
+            "country": "Rwanda",
+            "year": 2019,
+            "events": 1
+        },
+        {
+            "country": "Rwanda",
+            "year": 2021,
+            "events": 2
+        },
+        {
+            "country": "Rwanda",
+            "year": 2022,
+            "events": 3
+        },
+        {
+            "country": "Rwanda",
+            "year": 2024,
+            "events": 2
+        },
+        {
+            "country": "Rwanda",
+            "year": 2025,
+            "events": 2
+        },
+        {
+            "country": "Saudi Arabia",
+            "year": 2015,
+            "events": 40
+        },
+        {
+            "country": "Saudi Arabia",
+            "year": 2016,
+            "events": 33
+        },
+        {
+            "country": "Saudi Arabia",
+            "year": 2017,
+            "events": 7
+        },
+        {
+            "country": "Saudi Arabia",
+            "year": 2018,
+            "events": 8
+        },
+        {
+            "country": "Saudi Arabia",
+            "year": 2019,
+            "events": 7
+        },
+        {
+            "country": "Saudi Arabia",
+            "year": 2020,
+            "events": 1
+        },
+        {
+            "country": "Saudi Arabia",
+            "year": 2021,
+            "events": 3
+        },
+        {
+            "country": "Saudi Arabia",
+            "year": 2023,
+            "events": 3
+        },
+        {
+            "country": "Saudi Arabia",
+            "year": 2025,
+            "events": 1
+        },
+        {
+            "country": "Senegal",
+            "year": 2018,
+            "events": 2
+        },
+        {
+            "country": "Senegal",
+            "year": 2020,
+            "events": 1
+        },
+        {
+            "country": "Senegal",
+            "year": 2021,
+            "events": 2
+        },
+        {
+            "country": "Sierra Leone",
+            "year": 2021,
+            "events": 1
+        },
+        {
+            "country": "Somalia",
+            "year": 2015,
+            "events": 319
+        },
+        {
+            "country": "Somalia",
+            "year": 2016,
+            "events": 377
+        },
+        {
+            "country": "Somalia",
+            "year": 2017,
+            "events": 285
+        },
+        {
+            "country": "Somalia",
+            "year": 2018,
+            "events": 509
+        },
+        {
+            "country": "Somalia",
+            "year": 2019,
+            "events": 426
+        },
+        {
+            "country": "Somalia",
+            "year": 2020,
+            "events": 394
+        },
+        {
+            "country": "Somalia",
+            "year": 2021,
+            "events": 390
+        },
+        {
+            "country": "Somalia",
+            "year": 2022,
+            "events": 338
+        },
+        {
+            "country": "Somalia",
+            "year": 2023,
+            "events": 247
+        },
+        {
+            "country": "Somalia",
+            "year": 2024,
+            "events": 172
+        },
+        {
+            "country": "Somalia",
+            "year": 2025,
+            "events": 366
+        },
+        {
+            "country": "South Africa",
+            "year": 2015,
+            "events": 1
+        },
+        {
+            "country": "South Africa",
+            "year": 2016,
+            "events": 3
+        },
+        {
+            "country": "South Africa",
+            "year": 2018,
+            "events": 3
+        },
+        {
+            "country": "South Africa",
+            "year": 2019,
+            "events": 6
+        },
+        {
+            "country": "South Africa",
+            "year": 2020,
+            "events": 19
+        },
+        {
+            "country": "South Africa",
+            "year": 2021,
+            "events": 12
+        },
+        {
+            "country": "South Africa",
+            "year": 2022,
+            "events": 4
+        },
+        {
+            "country": "South Africa",
+            "year": 2023,
+            "events": 5
+        },
+        {
+            "country": "South Africa",
+            "year": 2024,
+            "events": 3
+        },
+        {
+            "country": "South Africa",
+            "year": 2025,
+            "events": 11
+        },
+        {
+            "country": "South Sudan",
+            "year": 2015,
+            "events": 99
+        },
+        {
+            "country": "South Sudan",
+            "year": 2016,
+            "events": 69
+        },
+        {
+            "country": "South Sudan",
+            "year": 2017,
+            "events": 116
+        },
+        {
+            "country": "South Sudan",
+            "year": 2018,
+            "events": 157
+        },
+        {
+            "country": "South Sudan",
+            "year": 2019,
+            "events": 68
+        },
+        {
+            "country": "South Sudan",
+            "year": 2020,
+            "events": 63
+        },
+        {
+            "country": "South Sudan",
+            "year": 2021,
+            "events": 55
+        },
+        {
+            "country": "South Sudan",
+            "year": 2022,
+            "events": 36
+        },
+        {
+            "country": "South Sudan",
+            "year": 2023,
+            "events": 10
+        },
+        {
+            "country": "South Sudan",
+            "year": 2024,
+            "events": 15
+        },
+        {
+            "country": "South Sudan",
+            "year": 2025,
+            "events": 52
+        },
+        {
+            "country": "Spain",
+            "year": 2017,
+            "events": 3
+        },
+        {
+            "country": "Spain",
+            "year": 2023,
+            "events": 1
+        },
+        {
+            "country": "Sri Lanka",
+            "year": 2017,
+            "events": 1
+        },
+        {
+            "country": "Sri Lanka",
+            "year": 2019,
+            "events": 4
+        },
+        {
+            "country": "Sudan",
+            "year": 2015,
+            "events": 365
+        },
+        {
+            "country": "Sudan",
+            "year": 2016,
+            "events": 250
+        },
+        {
+            "country": "Sudan",
+            "year": 2017,
+            "events": 63
+        },
+        {
+            "country": "Sudan",
+            "year": 2018,
+            "events": 101
+        },
+        {
+            "country": "Sudan",
+            "year": 2019,
+            "events": 92
+        },
+        {
+            "country": "Sudan",
+            "year": 2020,
+            "events": 70
+        },
+        {
+            "country": "Sudan",
+            "year": 2021,
+            "events": 77
+        },
+        {
+            "country": "Sudan",
+            "year": 2022,
+            "events": 110
+        },
+        {
+            "country": "Sudan",
+            "year": 2023,
+            "events": 384
+        },
+        {
+            "country": "Sudan",
+            "year": 2024,
+            "events": 705
+        },
+        {
+            "country": "Sudan",
+            "year": 2025,
+            "events": 718
+        },
+        {
+            "country": "Sweden",
+            "year": 2017,
+            "events": 1
+        },
+        {
+            "country": "Syria",
+            "year": 2015,
+            "events": 11383
+        },
+        {
+            "country": "Syria",
+            "year": 2016,
+            "events": 9475
+        },
+        {
+            "country": "Syria",
+            "year": 2017,
+            "events": 8080
+        },
+        {
+            "country": "Syria",
+            "year": 2018,
+            "events": 3562
+        },
+        {
+            "country": "Syria",
+            "year": 2019,
+            "events": 2391
+        },
+        {
+            "country": "Syria",
+            "year": 2020,
+            "events": 1145
+        },
+        {
+            "country": "Syria",
+            "year": 2021,
+            "events": 828
+        },
+        {
+            "country": "Syria",
+            "year": 2022,
+            "events": 800
+        },
+        {
+            "country": "Syria",
+            "year": 2023,
+            "events": 1009
+        },
+        {
+            "country": "Syria",
+            "year": 2024,
+            "events": 1110
+        },
+        {
+            "country": "Syria",
+            "year": 2025,
+            "events": 372
+        },
+        {
+            "country": "Tajikistan",
+            "year": 2018,
+            "events": 3
+        },
+        {
+            "country": "Tajikistan",
+            "year": 2019,
+            "events": 3
+        },
+        {
+            "country": "Tajikistan",
+            "year": 2021,
+            "events": 5
+        },
+        {
+            "country": "Tajikistan",
+            "year": 2022,
+            "events": 26
+        },
+        {
+            "country": "Tanzania",
+            "year": 2017,
+            "events": 1
+        },
+        {
+            "country": "Tanzania",
+            "year": 2018,
+            "events": 1
+        },
+        {
+            "country": "Tanzania",
+            "year": 2019,
+            "events": 3
+        },
+        {
+            "country": "Tanzania",
+            "year": 2020,
+            "events": 17
+        },
+        {
+            "country": "Tanzania",
+            "year": 2021,
+            "events": 8
+        },
+        {
+            "country": "Tanzania",
+            "year": 2022,
+            "events": 3
+        },
+        {
+            "country": "Tanzania",
+            "year": 2024,
+            "events": 5
+        },
+        {
+            "country": "Tanzania",
+            "year": 2025,
+            "events": 57
+        },
+        {
+            "country": "Thailand",
+            "year": 2015,
+            "events": 55
+        },
+        {
+            "country": "Thailand",
+            "year": 2016,
+            "events": 49
+        },
+        {
+            "country": "Thailand",
+            "year": 2017,
+            "events": 27
+        },
+        {
+            "country": "Thailand",
+            "year": 2018,
+            "events": 40
+        },
+        {
+            "country": "Thailand",
+            "year": 2019,
+            "events": 27
+        },
+        {
+            "country": "Thailand",
+            "year": 2020,
+            "events": 33
+        },
+        {
+            "country": "Thailand",
+            "year": 2021,
+            "events": 28
+        },
+        {
+            "country": "Thailand",
+            "year": 2022,
+            "events": 26
+        },
+        {
+            "country": "Thailand",
+            "year": 2023,
+            "events": 25
+        },
+        {
+            "country": "Thailand",
+            "year": 2024,
+            "events": 31
+        },
+        {
+            "country": "Thailand",
+            "year": 2025,
+            "events": 72
+        },
+        {
+            "country": "Togo",
+            "year": 2019,
+            "events": 1
+        },
+        {
+            "country": "Togo",
+            "year": 2022,
+            "events": 8
+        },
+        {
+            "country": "Togo",
+            "year": 2023,
+            "events": 20
+        },
+        {
+            "country": "Togo",
+            "year": 2024,
+            "events": 15
+        },
+        {
+            "country": "Togo",
+            "year": 2025,
+            "events": 5
+        },
+        {
+            "country": "Tunisia",
+            "year": 2015,
+            "events": 26
+        },
+        {
+            "country": "Tunisia",
+            "year": 2016,
+            "events": 15
+        },
+        {
+            "country": "Tunisia",
+            "year": 2017,
+            "events": 10
+        },
+        {
+            "country": "Tunisia",
+            "year": 2018,
+            "events": 13
+        },
+        {
+            "country": "Tunisia",
+            "year": 2019,
+            "events": 9
+        },
+        {
+            "country": "Tunisia",
+            "year": 2020,
+            "events": 5
+        },
+        {
+            "country": "Tunisia",
+            "year": 2021,
+            "events": 9
+        },
+        {
+            "country": "Tunisia",
+            "year": 2022,
+            "events": 1
+        },
+        {
+            "country": "Tunisia",
+            "year": 2023,
+            "events": 1
+        },
+        {
+            "country": "Turkey",
+            "year": 2015,
+            "events": 232
+        },
+        {
+            "country": "Turkey",
+            "year": 2016,
+            "events": 237
+        },
+        {
+            "country": "Turkey",
+            "year": 2017,
+            "events": 67
+        },
+        {
+            "country": "Turkey",
+            "year": 2018,
+            "events": 181
+        },
+        {
+            "country": "Turkey",
+            "year": 2019,
+            "events": 146
+        },
+        {
+            "country": "Turkey",
+            "year": 2020,
+            "events": 119
+        },
+        {
+            "country": "Turkey",
+            "year": 2021,
+            "events": 84
+        },
+        {
+            "country": "Turkey",
+            "year": 2022,
+            "events": 65
+        },
+        {
+            "country": "Turkey",
+            "year": 2023,
+            "events": 58
+        },
+        {
+            "country": "Turkey",
+            "year": 2024,
+            "events": 28
+        },
+        {
+            "country": "Turkey",
+            "year": 2025,
+            "events": 3
+        },
+        {
+            "country": "Uganda",
+            "year": 2016,
+            "events": 2
+        },
+        {
+            "country": "Uganda",
+            "year": 2017,
+            "events": 1
+        },
+        {
+            "country": "Uganda",
+            "year": 2018,
+            "events": 2
+        },
+        {
+            "country": "Uganda",
+            "year": 2019,
+            "events": 2
+        },
+        {
+            "country": "Uganda",
+            "year": 2021,
+            "events": 12
+        },
+        {
+            "country": "Uganda",
+            "year": 2022,
+            "events": 6
+        },
+        {
+            "country": "Uganda",
+            "year": 2023,
+            "events": 12
+        },
+        {
+            "country": "Uganda",
+            "year": 2024,
+            "events": 2
+        },
+        {
+            "country": "Uganda",
+            "year": 2025,
+            "events": 2
+        },
+        {
+            "country": "Ukraine",
+            "year": 2015,
+            "events": 871
+        },
+        {
+            "country": "Ukraine",
+            "year": 2016,
+            "events": 514
+        },
+        {
+            "country": "Ukraine",
+            "year": 2017,
+            "events": 216
+        },
+        {
+            "country": "Ukraine",
+            "year": 2018,
+            "events": 153
+        },
+        {
+            "country": "Ukraine",
+            "year": 2019,
+            "events": 199
+        },
+        {
+            "country": "Ukraine",
+            "year": 2020,
+            "events": 145
+        },
+        {
+            "country": "Ukraine",
+            "year": 2021,
+            "events": 167
+        },
+        {
+            "country": "Ukraine",
+            "year": 2022,
+            "events": 7502
+        },
+        {
+            "country": "Ukraine",
+            "year": 2023,
+            "events": 10758
+        },
+        {
+            "country": "Ukraine",
+            "year": 2024,
+            "events": 11102
+        },
+        {
+            "country": "Ukraine",
+            "year": 2025,
+            "events": 7504
+        },
+        {
+            "country": "United Arab Emirates",
+            "year": 2022,
+            "events": 1
+        },
+        {
+            "country": "United Kingdom",
+            "year": 2019,
+            "events": 3
+        },
+        {
+            "country": "United States of America",
+            "year": 2015,
+            "events": 3
+        },
+        {
+            "country": "United States of America",
+            "year": 2016,
+            "events": 8
+        },
+        {
+            "country": "United States of America",
+            "year": 2017,
+            "events": 10
+        },
+        {
+            "country": "United States of America",
+            "year": 2018,
+            "events": 3
+        },
+        {
+            "country": "United States of America",
+            "year": 2019,
+            "events": 3
+        },
+        {
+            "country": "United States of America",
+            "year": 2022,
+            "events": 1
+        },
+        {
+            "country": "Venezuela",
+            "year": 2015,
+            "events": 30
+        },
+        {
+            "country": "Venezuela",
+            "year": 2016,
+            "events": 60
+        },
+        {
+            "country": "Venezuela",
+            "year": 2017,
+            "events": 94
+        },
+        {
+            "country": "Venezuela",
+            "year": 2018,
+            "events": 91
+        },
+        {
+            "country": "Venezuela",
+            "year": 2019,
+            "events": 76
+        },
+        {
+            "country": "Venezuela",
+            "year": 2020,
+            "events": 4
+        },
+        {
+            "country": "Venezuela",
+            "year": 2021,
+            "events": 10
+        },
+        {
+            "country": "Venezuela",
+            "year": 2022,
+            "events": 23
+        },
+        {
+            "country": "Venezuela",
+            "year": 2023,
+            "events": 15
+        },
+        {
+            "country": "Venezuela",
+            "year": 2024,
+            "events": 10
+        },
+        {
+            "country": "Venezuela",
+            "year": 2025,
+            "events": 1
+        },
+        {
+            "country": "Yemen (North Yemen)",
+            "year": 2015,
+            "events": 609
+        },
+        {
+            "country": "Yemen (North Yemen)",
+            "year": 2016,
+            "events": 358
+        },
+        {
+            "country": "Yemen (North Yemen)",
+            "year": 2017,
+            "events": 406
+        },
+        {
+            "country": "Yemen (North Yemen)",
+            "year": 2018,
+            "events": 395
+        },
+        {
+            "country": "Yemen (North Yemen)",
+            "year": 2019,
+            "events": 311
+        },
+        {
+            "country": "Yemen (North Yemen)",
+            "year": 2020,
+            "events": 662
+        },
+        {
+            "country": "Yemen (North Yemen)",
+            "year": 2021,
+            "events": 769
+        },
+        {
+            "country": "Yemen (North Yemen)",
+            "year": 2022,
+            "events": 456
+        },
+        {
+            "country": "Yemen (North Yemen)",
+            "year": 2023,
+            "events": 320
+        },
+        {
+            "country": "Yemen (North Yemen)",
+            "year": 2024,
+            "events": 195
+        },
+        {
+            "country": "Yemen (North Yemen)",
+            "year": 2025,
+            "events": 420
+        },
+        {
+            "country": "Zimbabwe (Rhodesia)",
+            "year": 2018,
+            "events": 2
+        },
+        {
+            "country": "Zimbabwe (Rhodesia)",
+            "year": 2019,
+            "events": 8
+        },
+        {
+            "country": "Zimbabwe (Rhodesia)",
+            "year": 2020,
+            "events": 1
+        }
+    ]
+}
