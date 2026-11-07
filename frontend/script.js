@@ -4,7 +4,7 @@ async function loadDashboard() {
 
     try {
 
-        const response = await fetch("../data/dashboard_data.json");
+        const response = await fetch("./data/dashboard_data.json");
 
         if (!response.ok) {
             throw new Error("Could not load dashboard data");
@@ -250,7 +250,7 @@ async function loadConflictEvents() {
 
     try {
 
-        const response = await fetch("../data/map_data.json");
+        const response = await fetch("./data/map_data.json");
 
         if (!response.ok) {
             throw new Error("Could not load map data");
@@ -260,7 +260,7 @@ async function loadConflictEvents() {
 
         console.log("Geographic events loaded:", events.length);
         // Load complete conflict statistics
-const statisticsResponse = await fetch("../data/map_statistics.json");
+const statisticsResponse = await fetch("./data/map_statistics.json");
 
 if (!statisticsResponse.ok) {
     throw new Error("Could not load complete map statistics");
@@ -549,7 +549,7 @@ initializeConflictMap();
 
 async function initializeCountryProfile() {
     try {
-        const response = await fetch("../data/dashboard_data.json");
+        const response = await fetch("./data/dashboard_data.json");
 
         if (!response.ok) {
             throw new Error("Could not load country data");
@@ -689,7 +689,7 @@ if (chartCanvas && typeof Chart !== "undefined") {
     );
     // STRATEGIC INTELLIGENCE — HISTORICAL TREND ANALYSIS
 
-fetch("../data/dashboard_data.json")
+fetch("./data/dashboard_data.json")
     .then(response => {
         if (!response.ok) {
             throw new Error("Unable to load conflict data");
@@ -1791,7 +1791,7 @@ async function initializeCountryComparison() {
     if (!countryA || !countryB) return;
 
     try {
-        const response = await fetch("../data/dashboard_data.json");
+        const response = await fetch("./data/dashboard_data.json");
 
         if (!response.ok) {
             throw new Error("Unable to load comparison data");
